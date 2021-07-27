@@ -33,6 +33,9 @@ $q_a = [
     ]
 ];
 ?>
+<!-- Riscrivere questa pagina del sito google https://policies.google.com/faq.
+Ci sono diverse domande con relative risposte.
+Gestire il “Database” e la visualizzazione di queste domande e risposte con PHP. -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,7 +43,14 @@ $q_a = [
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font  google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <title>Google FAQ</title>
 </head>
 <body>
@@ -51,14 +61,14 @@ $q_a = [
         <div class="header-top">
             <!-- logo/ titolo -->
             <aside class="left">
-                <img src="https://policies.google.com/faq" alt="google logo">
+                <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="google logo">
                 <h2>Privacy e termini</h2>
             </aside>
-
+            
             <!-- profilo utente -->
             <aside class="right">
-                <img src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564400-account_81513.png" alt="logo utente">
                 <i class="fas fa-bars"></i>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJoIWrYCRldhC6z_uqZ_k-f0jhX6vDjBagug&usqp=CAU" alt="logo utente">
             </aside>
         </div>
 
@@ -143,7 +153,4 @@ $q_a = [
     
 </body>
 </html>
-<!-- Riscrivere questa pagina del sito google https://policies.google.com/faq.
-Ci sono diverse domande con relative risposte.
-Gestire il “Database” e la visualizzazione di queste domande e risposte con PHP. -->
 
